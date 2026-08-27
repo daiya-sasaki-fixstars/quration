@@ -249,24 +249,18 @@ public:
     Div(const RegisterAccessor& dst, const RegisterAccessor& src1, const RegisterAccessor& src2);
     void
     Mod(const RegisterAccessor& dst, const RegisterAccessor& src1, const RegisterAccessor& src2);
-    void Eq(const RegisterAccessor& dst,
-            const RegisterAccessor& src1,
-            const RegisterAccessor& src2);
-    void Ne(const RegisterAccessor& dst,
-            const RegisterAccessor& src1,
-            const RegisterAccessor& src2);
-    void Lt(const RegisterAccessor& dst,
-            const RegisterAccessor& src1,
-            const RegisterAccessor& src2);
-    void Le(const RegisterAccessor& dst,
-            const RegisterAccessor& src1,
-            const RegisterAccessor& src2);
-    void Gt(const RegisterAccessor& dst,
-            const RegisterAccessor& src1,
-            const RegisterAccessor& src2);
-    void Ge(const RegisterAccessor& dst,
-            const RegisterAccessor& src1,
-            const RegisterAccessor& src2);
+    void Eq(const RegisterAccessor& dst, const RegisterAccessor& src1, const RegisterAccessor& src2
+    );
+    void Ne(const RegisterAccessor& dst, const RegisterAccessor& src1, const RegisterAccessor& src2
+    );
+    void Lt(const RegisterAccessor& dst, const RegisterAccessor& src1, const RegisterAccessor& src2
+    );
+    void Le(const RegisterAccessor& dst, const RegisterAccessor& src1, const RegisterAccessor& src2
+    );
+    void Gt(const RegisterAccessor& dst, const RegisterAccessor& src1, const RegisterAccessor& src2
+    );
+    void Ge(const RegisterAccessor& dst, const RegisterAccessor& src1, const RegisterAccessor& src2
+    );
 
     [[nodiscard]] const std::string& Name() const {
         return name_;
