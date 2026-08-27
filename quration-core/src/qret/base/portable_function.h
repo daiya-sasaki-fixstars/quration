@@ -1302,7 +1302,6 @@ private:
             if (!it->second.IsBoolArray()) {
                 return false;
             }
-            return true;
         }
         {
             if (output_.size() != 1) {
@@ -1315,8 +1314,8 @@ private:
             if (!it->second.IsBoolArray()) {
                 return false;
             }
-            return true;
         }
+        return true;
     }
 };
 }  // namespace qret
