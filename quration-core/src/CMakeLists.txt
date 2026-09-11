@@ -116,6 +116,7 @@ list(
   # Parser
   qret/parser/openqasm2.cpp
   qret/parser/openqasm3.cpp
+  qret/parser/qualtran.cpp
   # Runtime
   qret/runtime/clifford_state.cpp
   qret/runtime/full_quantum_state.cpp
