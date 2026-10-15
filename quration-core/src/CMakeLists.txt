@@ -98,6 +98,7 @@ list(
   qret/frontend/functor.cpp
   qret/frontend/intrinsic.cpp
   qret/frontend/openqasm2.cpp
+  qret/frontend/qir.cpp
   # IR
   qret/ir/basic_block.cpp
   qret/ir/function.cpp
