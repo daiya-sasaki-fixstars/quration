@@ -117,6 +117,8 @@ list(
   qret/parser/openqasm2.cpp
   qret/parser/openqasm3.cpp
   qret/parser/qir.cpp
+  # Exporter
+  qret/exporter/qir.cpp
   # Runtime
   qret/runtime/clifford_state.cpp
   qret/runtime/full_quantum_state.cpp
@@ -174,6 +176,7 @@ if(QRET_BUILD_APPLICATION)
     qret/cmd/compile.cpp
     qret/cmd/asm.cpp
     qret/cmd/diagram.cpp
+    qret/cmd/export.cpp
     qret/cmd/main.cpp
     qret/cmd/opt.cpp
     qret/cmd/parse.cpp
